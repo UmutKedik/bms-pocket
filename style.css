@@ -30,3 +30,12 @@ p, li { color: var(--fg); }
 .muted { color: var(--muted); }
 ul { padding-left: 20px; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+nav a[aria-current="page"] { color: var(--fg); }
+.hero img { display: block; width: 72px; height: 72px; border-radius: 16px; margin-bottom: 16px; }
+.lead { font-size: 18px; margin: 0 0 8px; }
+.notice { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 0 0 24px; color: var(--muted); }
+.langs { margin: 0 0 16px; font-size: 14px; row-gap: 8px; }
+.store { display: inline-block; margin-top: 8px; padding: 10px 18px; border-radius: 10px; background: var(--fg); color: var(--bg); font-weight: 600; text-decoration: none; }
+details { border-bottom: 1px solid var(--line); padding: 8px 0; }
+summary { cursor: pointer; font-weight: 600; }
+details p { margin: 8px 0 0; }
