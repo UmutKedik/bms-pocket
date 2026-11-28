@@ -14,6 +14,17 @@
 - Diagnose: alarms, overrides and devices that do not answer on one page.
 - Commission: point-by-point checkout with a PDF report; CSV exports.
 
+## How to connect (no Wi-Fi on the controller is fine)
+
+The iPhone only needs to be on the same network as the controllers. Four ways work:
+
+- Controller with Wi-Fi: join the controller's own Wi-Fi.
+- Building Wi-Fi: join a Wi-Fi network on the BMS network.
+- Pocket router: plug it into the controller or the panel switch and join its Wi-Fi. Use access point (bridge) mode, not NAT: in NAT mode the BACnet scan finds nothing, because broadcasts do not pass NAT.
+- Cable: use a USB Ethernet adapter on the iPhone.
+
+Controllers on RS-485 (BACnet MS/TP, Modbus RTU) need a BACnet router or a Modbus gateway on the IP network.
+
 ## Plans
 
 - Basic (free): scan all four protocols, read BACnet points and Modbus registers, up to 100 devices a day.
