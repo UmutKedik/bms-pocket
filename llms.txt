@@ -1,0 +1,35 @@
+# BMS Pocket
+
+> BMS Pocket is an iPhone field tool for building automation (BMS/BAS) technicians. In one scan it finds BACnet/IP, Modbus TCP, OPC UA and Niagara (oBIX) controllers on the local network, then reads live values, sends commands and runs point-by-point commissioning checkouts with a PDF report. No laptop, no account, no cloud, no data collected. iOS 15 or later.
+
+- App Store: https://apps.apple.com/app/id6838406647
+- Made by Umut Kedik. Languages: English, Turkish, German, French, Spanish, Portuguese (Brazil), Japanese, Korean.
+
+## What it does
+
+- BACnet/IP: Who-Is scan, devices behind routers, BBMD, points with their priority array; write, override and release with read-back; weekly schedules; EDE export.
+- Modbus TCP: read holding/input registers, coils and discrete inputs by hand (with data type and byte order), or use device types the user edits and saves.
+- OPC UA: browse, read and write variables on servers with anonymous access and no encryption; tag list export.
+- Niagara over oBIX: sign in to a station with the oBIX service, read and command its points.
+- Diagnose: alarms, overrides and devices that do not answer on one page.
+- Commission: point-by-point checkout with a PDF report; CSV exports.
+
+## Plans
+
+- Basic (free): scan all four protocols, read BACnet points and Modbus registers, up to 100 devices a day.
+- Pro (subscription): adds OPC UA, Modbus device types, commands, schedule editing and exports.
+- Engineer (subscription): adds Niagara over oBIX, command history and the PDF commissioning report.
+- Releasing a command is free in every plan. Prices are shown in the App Store.
+
+## Privacy
+
+The app works only on the local network. No account, no cloud, no analytics, no data collected ("Data Not Collected" on the App Store).
+
+## Pages
+
+- [Home](https://umutkedik.github.io/bms-pocket/): features, plans and frequently asked questions
+- [Support](https://umutkedik.github.io/bms-pocket/support.html)
+- [Privacy Policy](https://umutkedik.github.io/bms-pocket/privacy.html)
+- [Terms of Use](https://umutkedik.github.io/bms-pocket/terms.html)
+
+BMS Pocket is for trained people, on equipment they are authorized to operate. It is not a safety system. Product and protocol names belong to their owners.
